@@ -1,15 +1,14 @@
 package boardgame;
 
-public class Pice {
+public class Piece {
 	protected Position position;
 	private Board board;
 	
-	public Pice(Board board) {
+	public Piece(Board board) {
 		this.board = board;
 	}
 
 	protected Board getBoard() {
 		return board;
 	}
-
 }
